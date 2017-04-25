@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by Kristof on 4/21/2017.
+ * A class to get the value of a scrabbleword
  */
 public class ScrabbleValues {
     private static final Map<Character, Integer> letterValues = new HashMap<>();
@@ -34,12 +34,20 @@ public class ScrabbleValues {
         letterValues.put('x', 8);
         letterValues.put('y', 4);
         letterValues.put('z', 10);
+        letterValues.put('*', 0);
     }
 
+    /**
+     * get the value of a scrabbleword word
+     * @param word
+     * @return
+     */
     public static int getWordValue(String word) {
         int value = 0;
         for (int i = 0; i < word.length(); i++) {
-            value += letterValues.get(word.toLowerCase().charAt(i));
+            if (Character.isLetter(word.charAt(i))) {
+                value += letterValues.get(word.toLowerCase().charAt(i));
+            }
         }
         return value;
     }

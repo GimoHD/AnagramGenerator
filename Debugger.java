@@ -6,7 +6,8 @@ class Debugger {
     private static boolean on = false;
 
     /**
-     * @param s prints a debug string s in the command line
+     * prints a debug string s in the command line
+     * @param s
      */
     public static void print(String s) {
         if (Debugger.on) {

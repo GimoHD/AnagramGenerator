@@ -51,14 +51,14 @@ public class Tree<T> {
 
         public TreeNode(T element) {
             this.element = element;
-            children = new ArrayList<Position<T>>();
+            children = new ArrayList<>();
             parent = null;
         }
 
         public TreeNode(T element, Position<T> parent) {
             this.element = element;
             this.parent = parent;
-            children = new ArrayList<Position<T>>();
+            children = new ArrayList<>();
         }
 
         public T get() {

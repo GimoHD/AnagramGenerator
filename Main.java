@@ -8,7 +8,7 @@ public class Main {
             GUI frame = new GUI();
             frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-            frame.setPreferredSize(new Dimension(1000,800));
+            frame.setPreferredSize(new Dimension(600, 700));
             frame.setResizable(false);
             frame.pack();
             frame.setVisible(true);
