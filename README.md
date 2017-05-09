@@ -27,6 +27,9 @@ Searching by the word perm:
 
 ![Imgur](http://i.imgur.com/Ow7oZCQ.png)
 
+Searching with wildcards
+![Imgur](http://i.imgur.com/ude2XX1.png)
+
 Finding situation gives an extended string from the word perm:
 
 ![Imgur](http://i.imgur.com/z9eNDxP.png)
