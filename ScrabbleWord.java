@@ -49,6 +49,10 @@ public class ScrabbleWord implements Comparable {
         this.value = value;
     }
 
+    /**
+     *
+     * @return the real word
+     */
     public String getRealWord() {
         return realWord;
     }
