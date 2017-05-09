@@ -24,10 +24,13 @@ If the character is an end of a word this gets stored in the tree position.
 ## Examples
 
 Searching by the word perm:
+
 ![Imgur](http://i.imgur.com/Ow7oZCQ.png)
 
 Finding situation gives an extended string from the word perm:
+
 ![Imgur](http://i.imgur.com/z9eNDxP.png)
 
 If selecting highest only only the highest value of the list gets shown:
+
 ![Imgur](http://i.imgur.com/jKbFixw.png)
