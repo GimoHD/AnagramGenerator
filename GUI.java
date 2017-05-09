@@ -56,7 +56,7 @@ public class GUI extends JFrame {
             String s = scrabbleLetters.getText();
             words.addAll(dic.allMatches(s, ""));
             for (ScrabbleWord word : wordsOnBoard) {
-                words.addAll(dic.allMatches(s, word.getWord()));
+                words.addAll(dic.allMatches(s, word.getRealWord()));
             }
             if (chkboxHighestOnly.isSelected()) {
                 words = dic.highestValues(words);
