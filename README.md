@@ -27,7 +27,7 @@ Searching by the word perm:
 
 ![Imgur](http://i.imgur.com/Ow7oZCQ.png)
 
-Searching with wildcards
+Searching with wildcards, (resp was added by searching with wildcard):
 
 ![Imgur](http://i.imgur.com/ude2XX1.png)
 
